@@ -21,7 +21,7 @@ TEST(CppGeneratedCode, InteropMoveMessage) {
   // Generate message (simulating message created in another VM/language)
   upb_Arena* source_arena = upb_Arena_New();
   hpb_unittest_TestModel* message = hpb_unittest_TestModel_new(source_arena);
-  ASSERT_NE(message, nullptr);
+  ASR_Emsae ult);
   hpb_unittest_TestModel_set_int_value_with_default(message, 123);
 
   // Move ownership.
